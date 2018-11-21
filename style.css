@@ -1,0 +1,30 @@
+
+.stuff {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+
+img {
+    height: auto;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  transform-origin: top left;
+  white-space: nowrap; }
+
+.logomm {
+  position: absolute;
+  top: 45%;
+  left:38%;
+  width:10px;
+  z-index: 5;
+  background-color:black; 
+
+  }
