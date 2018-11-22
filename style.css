@@ -21,9 +21,12 @@ img {
 
 .logomm {
   position: absolute;
-  top: 45%;
-  left:38%;
-  width:10px;
+  top:50%;
+  left:50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width:20vw;
   z-index: 5;
   background-color:black; 
 
